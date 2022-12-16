@@ -1,0 +1,8 @@
+[package]
+name = "aoc-solutions"
+version = "0.1.0"
+edition = "2021"
+authors = ["patrickp89 <patrickpreuss@netherspace.de>"]
+
+[dependencies]
+nalgebra = "0.31.3"
