@@ -4,7 +4,6 @@ use std::mem::*;
 /// and how much calories that food equals to.
 pub fn top_one_elf_with_most_food(calories_list: &str) -> i32 {
     let top_cal_sums_with_indices = compute_cal_count_for_top_n_elves(calories_list, 1);
-
     return top_cal_sums_with_indices.first().unwrap().clone();
 }
 
@@ -12,7 +11,6 @@ pub fn top_one_elf_with_most_food(calories_list: &str) -> i32 {
 /// and how much calories that food equals to.
 pub fn top_three_elves_with_most_food(calories_list: &str) -> i32 {
     let top_cal_sums_with_indices = compute_cal_count_for_top_n_elves(calories_list, 3);
-
     return top_cal_sums_with_indices.into_iter().sum();
 }
 
