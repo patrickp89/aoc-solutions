@@ -71,7 +71,7 @@ fn compute_cals_per_group(calories: &Vec<&str>, elf_count: usize) -> Vec<i32> {
 
 #[cfg(test)]
 mod tests {
-    use crate::calcounting::*;
+    use crate::aoc2022::calcounting::*;
 
     fn supply_example_cals() -> &'static str {
         return "1000

@@ -158,7 +158,7 @@ enum Outcome {
 
 #[cfg(test)]
 mod tests {
-    use crate::rockpaperscissors::*;
+    use crate::aoc2022::rockpaperscissors::*;
 
     fn supply_example_rps_strategy_guide() -> &'static str {
         return "A Y
